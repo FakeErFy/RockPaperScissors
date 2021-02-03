@@ -27,8 +27,6 @@
 .container {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* height: 100vh; */
     margin-top: 100px;
 }
 
@@ -94,11 +92,29 @@ svg:hover {
 }
 
 .disable {
-    background-color: rgb(182, 182, 182);
     color: #4d375d;
     cursor: default !important;
 }
 
 .disable:hover {
     transform: scale(1) !important;
+}
+
+.result {
+    position: relative;
+    top: 30px;
+    color: #e9cc0e;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+
+footer > p {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
